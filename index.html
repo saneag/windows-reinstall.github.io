@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+</head>
+
+<body>
+    <div style="display: flex; flex-direction: column;">
+        <a href="https://repack.me/software/repacks/multimedia/577-adobe-audition-2022.html" target="_blank">Adobe
+            Audition 2022</a>
+        <a href="https://repack.me/software/repacks/multimedia/570-adobe-photoshop-2022.html" target="_blank">Adobe
+            Photoshop</a>
+        <a href="https://repack.me/software/repacks/multimedia/579-adobe-media-encoder-2022.html" target="_blank">Adobe
+            Encoder</a>
+        <a href="https://repack.me/software/repacks/system/119-aida64.html" target="_blank">Aida 64</a>
+        <a href="https://discord.com/" target="_blank">Discord</a>
+        <a href="https://sourceforge.net/projects/dualmonitortool/files/latest/download" target="_blank">DMT</a>
+        <a href="https://store.epicgames.com/en-US/" target="_blank">Epic games</a>
+        <a href="https://git-scm.com/download/win" target="_blank">Git</a>
+        <a href="https://insomnia.rest/download" target="_blank">Insomnia</a>
+        <a href="https://www.bloody.com/en/download.php" target="_blank">Key Dominator 2</a>
+        <a href="https://app.prntscr.com/en/index.html" target="_blank">Lightshot</a>
+        <a href="https://www.logitechg.com/en-us/innovation/g-hub.html" target="_blank">G HUB</a>
+        <a href="https://repack.me/software/repacks/office/274-microsoft-office-2021.html" target="_blank">Office</a>
+        <a href="https://repack.me/software/repacks/internet/246-utorrent.html" target="_blank">Torrent</a>
+        <a href="https://www.microsoft.com/en-us/microsoft-teams/download-app" target="_blank">Teams</a>
+        <a href="https://code.visualstudio.com/docs/?dv=win" target="_blank">VS Code</a>
+        <a href="https://www.mongodb.com/try/download/compass" target="_blank">MongoDB compass</a>
+        <a href="https://store.steampowered.com/about/" target="_blank">Steam</a>
+        <a href="https://picasa.en.uptodown.com/windows/download" target="_blank">Picasa 3</a>
+        <a href="https://steamcustomizer.com/download" target="_blank"></a>
+        <a href="https://steamcustomizer.com/download" target="_blank">Steam customizer</a>
+        <a href="https://stefansundin.github.io/superf4/#:~:text=What%20is%20SuperF4%3F,for%20itself%20what%20to%20do."
+            target="_blank">Super f4</a>
+        <a href="https://unchecky.com/" target="_blank">Unchecky</a>
+        <a href="https://www.teamviewer.com/en/?utm_source=google&utm_medium=cpc&utm_campaign=restofeurope%7Cb%7Cpr%7C22%7Caug%7Ctv-core-brand-only-sn%7Cnew%7Ct0%7C0&utm_content=Exact&utm_term=teamviewer&gclid=CjwKCAiAwomeBhBWEiwAM43YICDYrvwNfCz1AttH7-WIkJmoVcHmq-6QCKGOpinz9WCcSnShoTk13BoCYGgQAvD_BwE"
+            target="_blank">Team Viewer</a>
+        <a href="https://repack.me/software/repacks/data/90-teracopy.html" target="_blank">Tera copy</a>
+        <a href="https://tlauncher.org/en/" target="_blank">TLauncher</a>
+        <a href="https://repack.me/software/repacks/system/84-total-uninstall.html" target="_blank">Total uninstall</a>
+        <button style="padding: 10px; width: 100px;">Open all</button>
+    </div>
+    <script>
+        const links = document.querySelectorAll('a');
+        const button = document.querySelector('button');
+        button.addEventListener('click', () => {
+            let i = 0;
+            const interval = setInterval(() => {
+                if (i < links.length) {
+                    window.open(links[i].href, '_blank');
+                    i++;
+                } else {
+                    clearInterval(interval);
+                }
+            }, 1000);
+        });
+    </script>
+</body>
+
+</html>
